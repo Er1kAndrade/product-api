@@ -40,7 +40,7 @@ Certifique-se de ter:
 
 ### ▶️ Executar via Maven
 
-```bash
+```
 # Clonar o repositório
 git clone https://github.com/Er1kAndrade/product-api.git
 cd product-api
@@ -58,7 +58,8 @@ cd product-api
 
 docker-compose up
 
-Isso irá subir a aplicação e eventuais serviços definidos no arquivo docker-compose.yml.
+```
+
 📡 Endpoints principais
 
     Os endpoints podem variar conforme sua implementação. Ajuste conforme necessário.
@@ -101,12 +102,8 @@ Isso irá subir a aplicação e eventuais serviços definidos no arquivo docker-
 
     Versionamento da API
 
-📄 Licença
-
-Projeto licenciado sob MIT.
-Consulte o arquivo LICENSE para mais detalhes.
 ✍️ Autor
 
-Erik Andrade
-GitHub: https://github.com/Er1kAndrade
-Contribuições, issues e sugestões são bem-vindas!
+    Erik Andrade
+    GitHub: https://github.com/Er1kAndrade
+    Contribuições, issues e sugestões são bem-vindas!
