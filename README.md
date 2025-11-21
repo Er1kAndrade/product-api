@@ -51,16 +51,14 @@ cd product-api
 # Rodar a API
 ./mvnw spring-boot:run
 
-- 🐳 Executar via Docker Compose
+🐳 Executar via Docker Compose
 
-- git clone https://github.com/Er1kAndrade/product-api.git
-- cd product-api
+git clone https://github.com/Er1kAndrade/product-api.git
+cd product-api
 
-- docker-compose up
+docker-compose up
 
-- Isso irá subir a aplicação e eventuais serviços definidos no arquivo docker-compose.yml.
-
-
+Isso irá subir a aplicação e eventuais serviços definidos no arquivo docker-compose.yml.
 📡 Endpoints principais
 
     Os endpoints podem variar conforme sua implementação. Ajuste conforme necessário.
@@ -87,6 +85,26 @@ cd product-api
 
     Suporte opcional a Docker
 
+📌 Melhorias sugeridas / futuras
+
+    Autenticação/autorização (JWT)
+
+    Documentação via Swagger/OpenAPI
+
+    Paginação, filtros e ordenação
+
+    Testes de unidade e integração completos
+
+    Logs estruturados e monitoramento
+
+    CI/CD
+
+    Versionamento da API
+
+📄 Licença
+
+Projeto licenciado sob MIT.
+Consulte o arquivo LICENSE para mais detalhes.
 ✍️ Autor
 
 Erik Andrade
