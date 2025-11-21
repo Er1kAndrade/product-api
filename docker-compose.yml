@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:16
+    container_name: ProductsDB
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: Products
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./migrations:/docker-entrypoint-initdb.d
